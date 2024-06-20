@@ -1,5 +1,5 @@
 def XOR(a,b):
-    if a==0 and b==0:
+    if a==0 and b==0 or a==1 and b==1:
         return False
     else:
         return True
